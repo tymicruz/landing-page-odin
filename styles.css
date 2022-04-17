@@ -1,0 +1,236 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  margin: 0;
+}
+
+body {
+  font-family: Roboto;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.center-all {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nav-container {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 20px 0;
+}
+
+.nav-container .center-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-logo {
+  font-size: 24px;
+}
+
+.nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.nav-links a {
+  cursor: pointer;
+}
+
+.hero-container {
+  color: #f9faf8;
+  background-color: #1f2937;
+  padding: 70px 0;
+}
+
+.hero-container h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-container .center-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  gap: 50px;
+  padding: 0 10px;
+}
+
+.hero-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 10px;
+}
+
+.hero-text {
+  font-size: 18px;
+}
+
+.hero-right {
+  width: 100%;
+  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.signup-btn {
+  color: #f9faf8;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  background-color: #3882f6;
+  cursor: pointer;
+}
+
+.hero-image {
+  background-color: #6c747d;
+  width: 100%;
+  height: 200px;
+}
+
+.second-container .center-all {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+  padding: 20px 50px;
+}
+
+.second-container h2 {
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.horizontal-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  gap: 10px;
+}
+
+.card-box {
+  height: 100px;
+  width: 80%;
+  border: 4px solid #3882f6;
+  border-radius: 8px;
+  margin: 0 auto 10px auto;
+}
+
+.third-container {
+  color: #1F2937;
+  background-color: #e5e7eb;
+  padding: 75px 20px;
+  padding-bottom: 50px;
+}
+
+.third-container .center-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.quote {
+  font-style: italic;
+  text-align: left;
+}
+
+.quote-credit {
+  margin-top: 0;
+  font-weight: 700;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.fourth-container {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  padding: 50px;
+}
+
+.inner-container {
+  color: white;
+  background-color: #3882f6;
+  border-radius: 8px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 10px;
+}
+
+.inner-container .signup-btn {
+  border: 2px solid white;
+}
+
+.call-to-action {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+footer {
+  text-align: center;
+  color: #f9faf8;
+  background-color: #1f2937;
+  padding: 15px 0;
+  font-weight: 18px;
+}
+/*# sourceMappingURL=styles.css.map */
